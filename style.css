@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
+body{margin: 0; font-family: sans-serif; background-color: #181826;
+background-image: url("https://www.transparenttextures.com/patterns/carbon-fibre.png");
+  
+  .header{color: white; text-align: center; padding: 32px; background-color: grey; border-bottom: 4px solid;}
+  
+  .gallery{display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center; gap: 25px; max-width: 1400px; margin: 0 auto; padding: 20px 10px;}
+  
+  .gallery img{width: 100%; max-width: 450px; height: 300px; object-fit: cover; border-radius: 20px;}
